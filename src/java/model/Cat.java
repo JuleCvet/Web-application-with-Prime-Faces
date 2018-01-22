@@ -9,8 +9,10 @@ import javax.persistence.Id;
 import javax.persistence.Temporal;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
+@XmlRootElement
 public class Cat implements Serializable {
 
     private static final long serialVersionUID = 1L;
